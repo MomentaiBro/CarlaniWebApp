@@ -16,4 +16,13 @@
     "Home Main Main Main"
 }
 
+.Home {
+  grid-area: Home;
+  background-color: powderblue;
+}
+
+.Main {
+  grid-area: Main;
+}
+
 
