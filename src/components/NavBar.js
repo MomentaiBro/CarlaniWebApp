@@ -13,17 +13,17 @@ const NavBar = () => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/about" exact className={ NavStyle.link } activeClassName={ NavStyle.activeAbout}>
+                <NavLink to="/about" className={ NavStyle.link } activeClassName={ NavStyle.activeAbout}>
                     About
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/services" exact className={ NavStyle.link } activeClassName={ NavStyle.activeServices}>
+                <NavLink to="/services" className={ NavStyle.link } activeClassName={ NavStyle.activeServices}>
                     Services
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/contact" exact className={ NavStyle.link } activeClassName={ NavStyle.activeContact}>
+                <NavLink to="/contact" className={ NavStyle.link } activeClassName={ NavStyle.activeContact}>
                     Contact
                 </NavLink>
             </li>
