@@ -1,0 +1,13 @@
+.NavBar {
+  background-color: burlywood;
+  position: absolute;
+  bottom: 20%;
+  left: 2%;
+}
+
+.logo {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  max-width: 360px;
+}

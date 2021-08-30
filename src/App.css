@@ -21,6 +21,12 @@
   background-color: powderblue;
 }
 
+.logo {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  max-width: 360px;
+}
 .Main {
   grid-area: Main;
 }
