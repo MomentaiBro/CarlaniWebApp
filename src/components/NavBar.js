@@ -5,8 +5,7 @@ const NavBar = () => {
 
     return (
     <div className={NavStyle.NavBar}>
-        <img src="Logo.png" alt="Carlani Logo" className={NavStyle.logo}/>
-        <ul className="NavList">
+        <ul className={NavStyle.NavList}>
             <li>
                 <NavLink to="/" exact className={ NavStyle.link } activeClassName={ NavStyle.activeHome}>
                     Home

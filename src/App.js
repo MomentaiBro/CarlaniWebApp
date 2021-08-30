@@ -3,6 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import NavBar from './components/NavBar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom' 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Home/>
+        <NavBar/>
         <Switch>
           <Route component={ About } path="/about"/>
           <Route component={ Services } path="/services"/>

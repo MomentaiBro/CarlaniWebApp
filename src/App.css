@@ -23,6 +23,13 @@
   background-color: whitesmoke;
 }
 
+.logo {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  max-width: 420px;
+}
+
 .Main {
   grid-area: Main;
 }
@@ -30,8 +37,8 @@
 .return {
   height: 100px;
   position: absolute;
-  top: 3%;
-  left: 2%;
+  top: 0%;
+  left: 1%;
   font-family: "Newsreader", serif;
   color: white;
   display: flex;
@@ -46,6 +53,6 @@
 
 .return a {
   text-decoration: none;
-  font-size: 4em;
+  font-size: 3em;
   color: rgb(140, 26, 86);
 }
