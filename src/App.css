@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -18,15 +20,39 @@
 
 .Home {
   grid-area: Home;
-  background-color: powderblue;
+  background-color: whitesmoke;
 }
 
 .logo {
   position: absolute;
   bottom: 25%;
   left: 2%;
-  max-width: 360px;
+  max-width: 420px;
 }
+
 .Main {
   grid-area: Main;
+}
+
+.return {
+  height: 100px;
+  position: absolute;
+  top: 0%;
+  left: 1%;
+  font-family: "Newsreader", serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.return a:hover {
+  color: rgb(0, 152, 213);
+}
+
+.return a {
+  text-decoration: none;
+  font-size: 3em;
+  color: rgb(140, 26, 86);
 }

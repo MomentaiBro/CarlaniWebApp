@@ -1,10 +1,11 @@
-import NavBar from "./NavBar";
+
+import ReturnHome from "./ReturnHome";
 
 const Home = () => {
     return ( 
         <div className="Home">
-            
-            <NavBar/>
+            <ReturnHome/>
+            <img src="Logo.png" alt="Carlani Logo" className="logo"/>
         </div>
      );
 }

@@ -1,15 +1,21 @@
 .NavBar {
   background-color: burlywood;
   position: absolute;
-  bottom: 20%;
-  left: 2%;
+  bottom: 50%;
+  right: 1%;
 }
 
-.logo {
-  position: absolute;
-  bottom: 25%;
-  left: 2%;
-  max-width: 360px;
+.NavList {
+  list-style: none;
+}
+
+.link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  font-family: "Newsreader", serif;
 }
 
 .activeHome {
