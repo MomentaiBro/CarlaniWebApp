@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,10 +10,10 @@
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "Home Main Main Main"
     "Home Main Main Main"
-    "Home Main Main Main"
+    "Home Main Main Main";
 }
 
 .Home {
@@ -21,8 +21,12 @@
   background-color: powderblue;
 }
 
+.logo {
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
+  max-width: 360px;
+}
 .Main {
   grid-area: Main;
 }
-
-
