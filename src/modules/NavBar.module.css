@@ -1,8 +1,9 @@
 .NavBar {
   background-color: burlywood;
-  position: absolute;
-  bottom: 50%;
-  right: 1%;
+}
+
+.logo {
+  max-width: 420px;
 }
 
 .NavList {
