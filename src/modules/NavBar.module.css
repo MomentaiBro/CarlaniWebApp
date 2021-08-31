@@ -1,18 +1,31 @@
 .NavBar {
-  background-color: burlywood;
+  position: sticky;
 }
 
 .logo {
   max-width: 420px;
+  padding-bottom: 5%;
 }
 
 .NavList {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15%;
+}
+
+.NavList li {
+  width: 100% auto;
+}
+
+.NavList li:hover {
+  text-align: left;
+  width: 100%;
+  animation: moveBg 0.3s ease-in;
 }
 
 .link {
-  padding-top: 10px;
-  padding-bottom: 10px;
   text-decoration: none;
   color: black;
   font-size: 2em;
@@ -30,4 +43,13 @@
 }
 .activeContact {
   background-color: darkred;
+}
+
+@keyframes moveBg {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: thistle;
+  }
 }
