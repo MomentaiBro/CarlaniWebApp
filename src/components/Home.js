@@ -1,11 +1,12 @@
-
+import NavBar from "./NavBar";
 import ReturnHome from "./ReturnHome";
+import HomeStyle from "../modules/Home.module.css"
 
 const Home = () => {
     return ( 
-        <div className="Home">
+        <div className={HomeStyle.Home}>
             <ReturnHome/>
-            <img src="Logo.png" alt="Carlani Logo" className="logo"/>
+            <NavBar/>
         </div>
      );
 }

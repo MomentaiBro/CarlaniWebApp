@@ -1,0 +1,29 @@
+.Home {
+  grid-area: Home;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.return {
+  height: 65px;
+  width: auto;
+  font-family: "Newsreader", serif;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 2%;
+}
+
+.return a:hover {
+  color: rgb(0, 152, 213);
+}
+
+.return a {
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(140, 26, 86);
+}
