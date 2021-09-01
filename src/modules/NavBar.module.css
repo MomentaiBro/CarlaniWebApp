@@ -18,9 +18,6 @@
   width: 100% auto;
 }
 
-.NavList li:hover {
-}
-
 .link {
   position: relative;
   display: inline-block;
@@ -34,7 +31,7 @@
   transition: 0.3s;
 }
 
-.link::before {
+li::before {
   content: "";
   position: absolute;
   top: calc(50% - 2px);
@@ -44,7 +41,7 @@
   background: #2196f3;
   transition: 0.5s;
 }
-.link:hover::before {
+li:hover::before {
   left: 0;
 }
 
