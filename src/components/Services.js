@@ -2,6 +2,7 @@ const Services = () => {
     return ( 
         <div className="Services Main"> 
             <div>
+                <h1>Services</h1>
                 <ul>
                     <li>
                         Paint
