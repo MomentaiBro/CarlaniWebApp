@@ -1,10 +1,10 @@
 .NavBar {
-  position: sticky;
+  max-height: 800px;
 }
 
 .logo {
   max-width: 420px;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
 }
 
 .NavList {
@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 15%;
 }
 
 .NavList li {
@@ -20,29 +19,46 @@
 }
 
 .NavList li:hover {
-  text-align: left;
-  width: 100%;
-  animation: moveBg 0.3s ease-in;
 }
 
 .link {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 10px;
+  padding: 5px 10px;
   text-decoration: none;
-  color: black;
-  font-size: 2em;
+  color: #aaa;
+  font-size: 1.6em;
   font-family: "Newsreader", serif;
+  transition: 0.3s;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  transition: 0.5s;
+}
+.link:hover::before {
+  left: 0;
 }
 
 .activeHome {
-  background-color: blueviolet;
+  color: blueviolet;
 }
 .activeAbout {
-  background-color: chartreuse;
+  color: chartreuse;
 }
 .activeServices {
-  background-color: darkcyan;
+  color: darkcyan;
 }
 .activeContact {
-  background-color: darkred;
+  color: darkred;
 }
 
 @keyframes moveBg {
