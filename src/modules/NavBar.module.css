@@ -24,11 +24,13 @@
   width: 30%;
   height: 30px;
   transform: skew(-30deg);
+  opacity: 0.5;
   background: rgb(72, 152, 209);
   transition: 0.5s;
 }
 .NavList li:hover::before {
   left: 1%;
+  transition: 0.3s;
 }
 .link {
   text-align: left;
@@ -41,26 +43,4 @@
   color: #000;
   font-size: 1.6em;
   font-family: "Newsreader", serif;
-  transition: 0.3s;
-}
-.activeHome {
-  color: blueviolet;
-}
-.activeAbout {
-  color: chartreuse;
-}
-.activeServices {
-  color: darkcyan;
-}
-.activeContact {
-  color: darkred;
-}
-
-@keyframes moveBg {
-  from {
-    background-color: transparent;
-  }
-  to {
-    background-color: thistle;
-  }
 }
