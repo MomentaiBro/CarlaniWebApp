@@ -7,7 +7,7 @@ nav {
 .navLinks {
   display: flex;
   list-style: none;
-  width: 50%; 
+  width: 50%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
@@ -18,7 +18,6 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 16px;
-  
 }
 
 .landing {
@@ -45,13 +44,14 @@ nav {
   nav {
     position: relative;
   }
-  
+
   .hamburger {
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top:20%;
+    top: 20%;
     transform: translate(-5% -50%);
+    z-index: 2;
   }
 
   .navLinks {
@@ -61,18 +61,19 @@ nav {
     width: 100%;
     flex-direction: column;
     clip-path: circle(100px at 90% -12%);
-    -webkit-clip-path: circle(100px at 90% -12%);
+    -webkit-clip-path: circle(1000px at 90% -12%);
     transition: all 1s ease-out;
+    pointer-events: none;
   }
 
-  .navLinks.open {
+  .gay {
+    background-color: brown;
     clip-path: circle(1000px at 90% -12%);
     -webkit-clip-path: circle(1000px at 90% -12%);
+    pointer-events: all;
   }
 
   .landing {
     flex-direction: column;
   }
-
-  }
-
+}
