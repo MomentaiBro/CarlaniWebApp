@@ -4,10 +4,11 @@ import { useState } from 'react';
 const NavBar = () => {
 
     const [ isOpen, setIsOpen ] = useState('false');
+    const [ isFade, setFade] = useState('false')
 
     const ToggleClass = () => {
         setIsOpen(!isOpen)
-        console.log(`${isOpen}`)
+        setFade(!isFade)
     }
 
     return (
@@ -18,17 +19,17 @@ const NavBar = () => {
                     <div className="line"></div>
                     <div className="line"></div>
                 </div>
-                <ul className={`navLinks ${isOpen ? "" : "gay"}`}>
-                    <li>
+                <ul className={`navLinks ${isOpen ? "" : "open"}`}>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">About</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Services</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Contact</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Testimonials</a>
                     </li>
 
