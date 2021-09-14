@@ -1,5 +1,4 @@
 import NavStyle from '../modules/NavBar.module.css'
-import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -8,24 +7,16 @@ const NavBar = () => {
         <img src="Logo.png" alt="Carlani Logo" className={NavStyle.logo}/>
         <ul className={NavStyle.NavList}>
             <li>
-                <NavLink to="/" exact className={ NavStyle.link } activeClassName={ NavStyle.active}>
-                    Home
-                </NavLink>
+                Home
             </li>
             <li>
-                <NavLink to="/about" className={ NavStyle.link } activeClassName={ NavStyle.active}>
-                    About
-                </NavLink>
+                About
             </li>
             <li>
-                <NavLink to="/services" className={ NavStyle.link } activeClassName={ NavStyle.active}>
-                    Services
-                </NavLink>
+                Services 
             </li>
             <li>
-                <NavLink to="/contact" className={ NavStyle.link } activeClassName={ NavStyle.active}>
-                    Contact
-                </NavLink>
+                Contact
             </li>
         </ul>
     </div>
