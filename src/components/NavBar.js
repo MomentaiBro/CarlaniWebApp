@@ -4,12 +4,12 @@ const NavBar = () => {
 
     return (
         <nav>
-            <div className="hamburger"> 
+            <div className={NavStyle.hamburger}> 
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
             </div>
-            <ul className="navLinks">
+            <ul className={NavStyle.navLinks}>
                 <li>
                     <a href="#">About</a>
                 </li>
