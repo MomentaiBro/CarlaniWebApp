@@ -6,9 +6,9 @@ const NavBar = () => {
         <div>
             <nav>
                 <div className={NavStyle.hamburger}> 
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
+                    <div className={NavStyle.line}></div>
+                    <div className={NavStyle.line}></div>
+                    <div className={NavStyle.line}></div>
                 </div>
                 <ul className={NavStyle.navLinks}>
                     <li>
