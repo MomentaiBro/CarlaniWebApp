@@ -1,33 +1,42 @@
-import NavStyle from '../modules/NavBar.module.css'
+import { useState } from 'react';
+// import NavStyle from '../modules/NavBar.module.css'
 
 const NavBar = () => {
+
+    const [ isOpen, setIsOpen ] = useState('false');
+    const [ isFade, setFade] = useState('false')
+
+    const ToggleClass = () => {
+        setIsOpen(!isOpen)
+        setFade(!isFade)
+    }
 
     return (
         <div>
             <nav>
-                <div className={NavStyle.hamburger}> 
-                    <div className={NavStyle.line}></div>
-                    <div className={NavStyle.line}></div>
-                    <div className={NavStyle.line}></div>
+                <div onClick={ToggleClass} className="hamburger"> 
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
                 </div>
-                <ul className={NavStyle.navLinks}>
-                    <li>
+                <ul className={`navLinks ${isOpen ? "" : "open"}`}>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">About</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Services</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Contact</a>
                     </li>
-                    <li>
+                    <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">Testimonials</a>
                     </li>
 
                 </ul>
             </nav>
 
-            <section className={NavStyle.landing}>
+            <section className="landing">
                 <img src="./circles.svg" alt="dots"/>
                 <h1>Dots</h1>
             </section>
