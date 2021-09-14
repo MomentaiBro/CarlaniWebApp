@@ -1,16 +1,16 @@
 nav {
-  height: 10vh;
+  height: 8vh;
   background-color: crimson;
 }
 
 .navLinks {
   display: flex;
   list-style: none;
-  width: 50%;
-  background-color: cyan;
+  width: 50%; 
   height: 100%;
   justify-content: space-around;
   align-items: center;
+  margin-left: auto;
 }
 
 .navLinks li a {
