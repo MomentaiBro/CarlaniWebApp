@@ -7,17 +7,14 @@
 }
 
 .App {
-  text-align: center;
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-    "Home Main Main"
-    "Home Main Main"
-    "Home Main Main";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: blanchedalmond;
 }
 
-.Main {
-  grid-area: Main;
+nav {
+  height: 10vh;
+  width: 100vw;
 }
