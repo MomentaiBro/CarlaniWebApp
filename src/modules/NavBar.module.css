@@ -1,6 +1,7 @@
 nav {
   height: 8vh;
-  background-color: crimson;
+  background-color: #5b78c7;
+  /* need to change colors to carlani colors */
 }
 
 .navLinks {
@@ -18,4 +19,23 @@ nav {
   text-decoration: none;
   font-size: 16px;
   
+}
+
+.landing {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  margin: 100px;
+  font-size: 50px;
+  background-color: #ae5fce;
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    background-color: darkgreen;
+  }
 }
