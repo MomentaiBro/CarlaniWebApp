@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
+:root {
+  --blue: #1e90ff;
+  --almond: blanchedalmond;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-color: blanchedalmond;
+  background-color: var(--almond)
 }
 
 /* NavBar */
