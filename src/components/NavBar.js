@@ -35,11 +35,6 @@ const NavBar = () => {
 
                 </ul>
             </nav>
-
-            <section className="landing">
-                <img src="./circles.svg" alt="dots"/>
-                <h1>Dots</h1>
-            </section>
         </div>
     )
 }

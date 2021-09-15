@@ -1,9 +1,10 @@
 import HomeStyle from "../modules/Home.module.css"
+import "animate.css"
 
 const Home = () => {
     return ( 
         <div className={HomeStyle.Home}>
-            Hello I'm Home
+            <h1 className="animate__animated animate__slideInLeft">Carlani</h1>
         </div>
      );
 }
