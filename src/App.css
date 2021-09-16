@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
 :root {
-  --blue:#189AD6;
+  --blue: rbg(165, 194, 227);
   --fuscia: #861C56;
   --yellow: #FAE17B;
 }
