@@ -6,7 +6,7 @@ const Home = () => {
         <div className={HomeStyle.Home}>
             
             <img 
-                src="Logo.png"
+                src="carlanilogo.png"
                 alt="Carlani Logo"
                 className="animate__animated animate__slideInLeft welcome"
                     />
