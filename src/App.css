@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
 :root {
-  --blue: rgb(165,194,227);
-  --fuscia: #861C56;
-  --yellow: rgb(250, 219,120);
+  --blue: rgb(165, 194, 227);
+  --fuscia: #861c56;
+  --yellow: rgb(250, 219, 120);
   --darkblue: rgb(80, 116, 157);
   --grey: rgb(126, 126, 129);
 }
@@ -28,10 +28,10 @@
 
 nav {
   height: 8vh;
-  background-color: var(--blue);
+  background-color: var(--darkblue);
   width: 100vw;
   /* need to change colors to carlani colors */
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 .navLinks {
@@ -47,7 +47,7 @@ nav {
 .navLinks li a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 36px;
 }
 
 @media screen and (max-width: 750px) {
@@ -60,6 +60,7 @@ nav {
 
   nav {
     position: relative;
+    margin: 0;
   }
 
   .hamburger {
@@ -84,6 +85,8 @@ nav {
   }
 
   .navLinks.open {
+    position: absolute;
+
     background-color: var(--darkblue);
     clip-path: circle(1200px at 90% -12%);
     -webkit-clip-path: circle(1200px at 90% -12%);

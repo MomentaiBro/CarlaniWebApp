@@ -12,7 +12,7 @@ const NavBar = () => {
     }
 
     return (
-        <div>
+        <div className="sticky">
             <nav>
                 <div onClick={ToggleClass} className="hamburger"> 
                     <div className="line"></div>
