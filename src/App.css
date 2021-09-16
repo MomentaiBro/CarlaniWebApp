@@ -3,9 +3,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
 :root {
-  --blue: rbg(165, 194, 227);
+  --blue: rgb(165,194,227);
   --fuscia: #861C56;
-  --yellow: #FAE17B;
+  --yellow: rgb(250, 219,120);
+  --darkblue: rgb(80, 116, 157);
+  --grey: rgb(126, 126, 129);
 }
 
 * {
@@ -19,14 +21,14 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-color: var(--almond)
+  background-color: var(--yellow);
 }
 
 /* NavBar */
 
 nav {
   height: 8vh;
-  background-color: #5b78c7;
+  background-color: var(--blue);
   width: 100vw;
   /* need to change colors to carlani colors */
   font-family: 'Lato';
@@ -70,7 +72,7 @@ nav {
   }
 
   .navLinks {
-    background-color: #5b78c7;
+    background-color: var(--darkblue);
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -82,7 +84,7 @@ nav {
   }
 
   .navLinks.open {
-    background-color: #5b78c7;
+    background-color: var(--darkblue);
     clip-path: circle(1200px at 90% -12%);
     -webkit-clip-path: circle(1200px at 90% -12%);
     pointer-events: all;
