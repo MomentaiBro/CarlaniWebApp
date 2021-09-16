@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+:root {
+  --blue:#189AD6;
+  --fuscia: #861C56;
+  --yellow: #FAE17B;
+}
 
 * {
   margin: 0;
@@ -11,7 +19,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-color: blanchedalmond;
+  background-color: var(--almond)
 }
 
 /* NavBar */
@@ -21,6 +29,7 @@ nav {
   background-color: #5b78c7;
   width: 100vw;
   /* need to change colors to carlani colors */
+  font-family: 'Lato';
 }
 
 .navLinks {

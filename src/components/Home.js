@@ -4,7 +4,7 @@ import "animate.css"
 const Home = () => {
     return ( 
         <div className={HomeStyle.Home}>
-            <h1 className="animate__animated animate__slideInLeft">Carlani</h1>
+            <h1 className="animate__animated animate__slideInLeft" id="shimmer">Carlani</h1>
         </div>
      );
 }
