@@ -12,13 +12,17 @@ const NavBar = () => {
     }
 
     return (
-        <div>
+        <div className="sticky">
             <nav>
+                
                 <div onClick={ToggleClass} className="hamburger"> 
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
                 </div>
+                <section> 
+                    Carlani
+                </section>
                 <ul className={`navLinks ${isOpen ? "" : "open"}`}>
                     <li className={`${isFade ? "" : "fade"}`}>
                         <a href="#">About</a>

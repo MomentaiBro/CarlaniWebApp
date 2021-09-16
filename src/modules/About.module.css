@@ -1,0 +1,21 @@
+.about {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: var(--darkblue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 92vh;
+  width: 100%;
+}
+
+.aboutImg {
+  max-height: 600px;
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
