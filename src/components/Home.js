@@ -5,6 +5,7 @@ const Home = () => {
     return ( 
         <div className={HomeStyle.Home}>
             <h1 className="animate__animated animate__slideInLeft" id="shimmer">Carlani</h1>
+            
         </div>
      );
 }
