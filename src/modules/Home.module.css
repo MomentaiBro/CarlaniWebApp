@@ -8,9 +8,9 @@
 
 .Home {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding-left: 13%;
+  /* padding-left: 13%; */
   height: 92vh;
   width: 100%;
   font-size: 70px;
@@ -24,15 +24,15 @@
 
 /* shimmer effect attempt still can't get this working*/
 h1 {
+}
+
+#shimmer {
   font-weight: 300;
   font-size: 3em;
   margin: 0 auto;
   padding: 0 140px 0 0;
   display: inline;
   margin-bottom: 0;
-}
-
-#shimmer {
   text-align: center;
   color: rgba(255, 255, 255, 0.1);
   background: -webkit-gradient(
@@ -113,4 +113,7 @@ h1 {
   100% {
     background-position: top right;
   }
+}
+
+@media screen and (max-width: 750px) {
 }
