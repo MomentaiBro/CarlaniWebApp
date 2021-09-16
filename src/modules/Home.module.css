@@ -1,3 +1,11 @@
+:root {
+  --blue: rgb(165,194,227);
+  --fuscia: #861C56;
+  --yellow: rgb(250, 219,120);
+  --darkblue: rgb(80, 116, 157);
+  --grey: rgb(126, 126, 129);
+}
+
 .Home {
   display: flex;
   justify-content: center;
@@ -8,7 +16,7 @@
   border: 5px solid black;
   font-size: 70px;
   font-family: 'Tangerine', cursive;
-  color: rgba(255, 255, 255);
+  color: var(--fuscia);
 }
 
 /* shimmer effect attempt still can't get this working*/
