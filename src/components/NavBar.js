@@ -25,16 +25,16 @@ const NavBar = () => {
                 
                 <ul className={`navLinks ${isOpen ? "" : "open"}`}>
                     <li className={`${isFade ? "" : "fade"}`}>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li className={`${isFade ? "" : "fade"}`}>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li className={`${isFade ? "" : "fade"}`}>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li className={`${isFade ? "" : "fade"}`}>
-                        <a href="#">Testimonials</a>
+                        <a href="#testimonials">Testimonials</a>
                     </li>
 
                 </ul>

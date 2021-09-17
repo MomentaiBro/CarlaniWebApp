@@ -2,7 +2,7 @@ import style from "../modules/About.module.css"
 
 const About = () => {
     return ( 
-        <div className={style.about} >
+        <div className={style.about} id="about">
             <section >
                 <img
                     className={style.aboutImg}
