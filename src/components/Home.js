@@ -7,7 +7,7 @@ const Home = () => {
             <img 
                 src="Logo.png"
                 alt="Carlani Logo"
-                className="animate__animated animate__slideInLeft welcome"
+                className="animate__animated animate__fadeInUp welcome"
                     />
         </div>
      );

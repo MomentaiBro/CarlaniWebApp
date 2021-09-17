@@ -14,9 +14,6 @@ const NavBar = () => {
     return (
         <div className="sticky">
             <nav>
-                <div> 
-                    Carlani
-                </div>
                 <div onClick={ToggleClass} className="hamburger"> 
                     <div className="line"></div>
                     <div className="line"></div>

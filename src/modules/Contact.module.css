@@ -1,7 +1,5 @@
-:root {
-  --blue: rgb(165, 194, 227);
-  --fuscia: #861c56;
-  --yellow: rgb(250, 219, 120);
-  --darkblue: rgb(80, 116, 157);
-  --grey: rgb(126, 126, 129);
+.contact {
+  height: 50vh;
+  width: 100%;
+  background: darkcyan;
 }
