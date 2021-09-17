@@ -22,11 +22,7 @@
   background-size: cover;
 }
 
-/* shimmer effect attempt still can't get this working*/
-h1 {
-}
-
-#shimmer {
+.shimmer {
   font-weight: 300;
   font-size: 3em;
   margin: 0 auto;
