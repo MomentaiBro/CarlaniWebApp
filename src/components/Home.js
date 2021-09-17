@@ -4,7 +4,6 @@ import "animate.css"
 const Home = () => {
     return ( 
         <div className={HomeStyle.Home}>
-            
             <img 
                 src="Logo.png"
                 alt="Carlani Logo"

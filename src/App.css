@@ -169,7 +169,7 @@ nav section {
     right: 5%;
     top: 20%;
     transform: translate(-5% -50%);
-    z-index: 2;
+    z-index: 12;
   }
 
   .navLinks {
@@ -186,11 +186,11 @@ nav section {
 
   .navLinks.open {
     position: absolute;
-
     background-color: var(--darkblue);
     clip-path: circle(1200px at 90% -12%);
     -webkit-clip-path: circle(1200px at 90% -12%);
     pointer-events: all;
+    z-index: 10;
   }
 
   .navLinks li {
