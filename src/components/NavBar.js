@@ -21,16 +21,16 @@ const NavBar = () => {
                 </div>
                 
                 <ul className={`navLinks ${isOpen ? "" : "open"}`}>
-                    <li className={`${isFade ? "" : "fade"}`}>
+                    <li onClick={ToggleClass} className={`${isFade ? "" : "fade"}`}>
                         <a href="#about">About</a>
                     </li>
-                    <li className={`${isFade ? "" : "fade"}`}>
+                    <li onClick={ToggleClass} className={`${isFade ? "" : "fade"}`}>
                         <a href="#services">Services</a>
                     </li>
-                    <li className={`${isFade ? "" : "fade"}`}>
+                    <li onClick={ToggleClass} className={`${isFade ? "" : "fade"}`}>
                         <a href="#contact">Contact</a>
                     </li>
-                    <li className={`${isFade ? "" : "fade"}`}>
+                    <li onClick={ToggleClass} className={`${isFade ? "" : "fade"}`}>
                         <a href="#testimonials">Testimonials</a>
                     </li>
 
