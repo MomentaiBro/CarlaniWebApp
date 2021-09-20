@@ -1,6 +1,8 @@
+import style from '../modules/Services.module.css'
+
 const Services = () => {
     return ( 
-        <div className="Services Main"> 
+        <div className={style.services} id="services"> 
             <div>
                 <h1>Services</h1>
                 <ul>

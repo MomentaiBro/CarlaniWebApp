@@ -1,6 +1,7 @@
+import style from '../modules/Contact.module.css'
 const Contact = () => {
     return ( 
-        <div className="Contact">
+        <div className={style.contact} id="contact">
             Contact
         </div>
      );

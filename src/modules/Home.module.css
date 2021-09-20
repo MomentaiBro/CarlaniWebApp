@@ -8,10 +8,10 @@
 
 .Home {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   /* padding-left: 13%; */
-  height: 92vh;
+  height: 100vh;
   width: 100%;
   font-size: 70px;
   font-family: "Tangerine", cursive;
@@ -22,11 +22,7 @@
   background-size: cover;
 }
 
-/* shimmer effect attempt still can't get this working*/
-h1 {
-}
-
-#shimmer {
+.shimmer {
   font-weight: 300;
   font-size: 3em;
   margin: 0 auto;
