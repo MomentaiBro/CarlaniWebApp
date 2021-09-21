@@ -39,6 +39,10 @@ h1 {
   color: var(--fuscia);
 }
 
+p {
+  color: var(--fuscia);
+}
+
 @media screen and (max-width: 750px) {
   .about {
     flex-direction: column;

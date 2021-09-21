@@ -12,7 +12,7 @@ const About = () => {
             </section>
             <section className={style.description}>
                 <h1>What's Carlani? </h1>
-                <p> Here are Carlani. We care about Carlani.. and THIS is our story...</p>
+                <p>I'm baby keffiyeh roof party waistcoat forage portland. Man braid freegan yuccie, shabby chic lomo semiotics cliche deep v gluten-free helvetica vinyl mustache copper mug master cleanse hella. Banjo gochujang mustache disrupt activated charcoal street art portland pork belly humblebrag listicle. 3 wolf moon shabby chic disrupt poke twee squid. Cred keytar cray plaid four dollar toast ramps.</p>
             </section>
             
         </div>
