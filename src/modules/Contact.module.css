@@ -1,7 +1,8 @@
 .contact {
-  height: 50vh;
+  height: 58vh;
   width: 100%;
   background: darkcyan;
+  padding-top: 10px;
 }
 
 .wrapper {
