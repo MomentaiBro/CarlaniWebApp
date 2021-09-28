@@ -1,6 +1,13 @@
+import { useEffect, useState } from 'react';
 import style from '../modules/Services.module.css'
 
 const Services = () => {
+
+    const [service, setService ] = useState(null)
+    // useEffect(()=> {
+    //         service = []
+    // } )
+
     return ( 
         <div className={style.services} id="services"> 
             <div className="serviceContainer">
@@ -8,7 +15,9 @@ const Services = () => {
                 <ul>
                     <li className={style.singleservice}>
                             <img className={style.serviceicon} src="./icons/paint.png"/>
+
                             <h2 className={style.servicetitle}>Paint</h2>
+
                             <h4>touch up paint and such.</h4>
                     </li>
                     <li className={style.singleserviceb}>
