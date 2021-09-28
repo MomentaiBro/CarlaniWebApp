@@ -7,12 +7,12 @@ const Services = () => {
                 <h1>Services</h1>
                 <ul>
                     <li className={style.singleservice}>
-                            <img className={style.serviceicon} src="../icons/paint.png"/>
+                            <img className={style.serviceicon} src="./icons/paint.png"/>
                             <h2 className={style.servicetitle}>Paint</h2>
                             <h4>touch up paint and such.</h4>
                     </li>
                     <li className={style.singleserviceb}>
-                            <img className={style.serviceicon}  src="icons/mop.png"/>
+                            <img className={style.serviceicon}  src="./icons/mop.png"/>
                             <h2 className={style.servicetitle}>Clean</h2>
                             <h4>so much cleaning.</h4>
                     </li>
