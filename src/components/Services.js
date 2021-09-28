@@ -2,15 +2,19 @@ import style from '../modules/Services.module.css'
 
 const Services = () => {
     return ( 
-        <div className={style.services} id="services"> 
+        <div className={style.services} id="service-container"> 
             <div>
                 <h1>Services</h1>
                 <ul>
-                    <li>
-                        Paint
+                    <li className="singleservice">
+                            <img className="serviceicon" src="../icons/paint.png"/>
+                            <h2 className="servicetitle">Paint</h2>
+                            <h4>touch up paint and such.</h4>
                     </li>
-                    <li>
-                        Clean
+                    <li className="singleserviceb">
+                            <img className="serviceicon" src="icons/mop.png"/>
+                            <h2 className="servicetitle">Clean</h2>
+                            <h4>so much cleaning.</h4>
                     </li>
                     <li>
                         Organized

@@ -2,4 +2,53 @@
   height: 92vh;
   width: 100%;
   background: cornflowerblue;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
+.services-wrapper {
+  width: auto;
+  min-height: 400px;
+  padding: 25px;
+}
+
+.service-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.singleservice {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: #f3f3f3;
+  padding: 25px;
+  color: #b2b2b2;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid skyblue;
+  border-radius: 10px;
+}
+
+.singleserviceb {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: #f3f3f3;
+  padding: 25px;
+  color: #b2b2b2;
+  font-family: avenir;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid orange;
+  border-radius: 10px;
+}
+
