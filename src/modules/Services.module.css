@@ -52,3 +52,31 @@
   border-radius: 10px;
 }
 
+@media (max-width:500px) {
+  .singleservice, .singleserviceb {
+    width: 100%;
+  }
+}
+
+h2.servicetitle{
+  font-family: century gothic;
+  font-size: 16pt;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8c8c8c;
+}
+
+img.serviceicon {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  opacity: .5;
+}
