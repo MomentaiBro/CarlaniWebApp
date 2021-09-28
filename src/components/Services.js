@@ -10,29 +10,27 @@ const Services = () => {
         {title: "Flooring", description: "Wow I love floor sm. Can't lay down enough flooring to cover my love for flooring.", icon: "./icons/flooring.png"},
         {title: "Packing", description: "moving? Someone died of covid and left you a bunch of stuff? We can help!!!", icon: "./icons/shipping.png"},
         {title: "Trash Pick Up", description: "Bruh you got trash. we got arms and energy. let us take care of it for you", icon: "./icons/trashcan.png"},
-        
-    ])
-    // useEffect(()=> {
-    //         service = []
-    // } )
+    ]);
 
     return ( 
-        <div className={style.services} id="services"> 
-            <div className="serviceContainer">
-                <h1>Services</h1>
-               
+        <div className={style.services} id="services">
+                 <h1>Services</h1>
+                 <div className={style.serviceContainer}>
+                     
                { services.map((service) => (
-                    <ul>
-                        <li className={style.singleservice}>
+                
+                    <span className={style.singleService}>
+                        
                             
-                            <img className={style.serviceicon} src={service.icon}/>
+                            <img className={style.serviceIcon} src={service.icon}/>
 
-                            <h2 className={style.servicetitle}> {service.title}</h2>
+                            <h2 className={style.serviceTitle}> {service.title}</h2>
 
                             <h4>{service.description}</h4>
-                        </li>
-                    </ul>
-                ))}
+                      
+                    </span>
+            
+            ))}
             </div>
         </div>
      );
