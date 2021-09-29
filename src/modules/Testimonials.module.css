@@ -1,4 +1,14 @@
-.testimonial {
+.testimonials {
   height: 42vh;
   width: 100%;
+  background-color: var(--fuscia);
+  color: whitesmoke;
 }
+
+.testimonial {
+ height: 50px;
+ width: 30%;
+ border: 5px solid whitesmoke;
+}
+
+
