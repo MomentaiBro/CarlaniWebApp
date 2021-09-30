@@ -6,11 +6,13 @@ const Testimonials = () => {
     const [ testimonials, setTestimonials ] = useState([
         {image: "./img/tony.jpg", name: "Jane", quote: "Carlani is the BEST. I love Carlani!" },
         {image: "./img/tony.jpg", name: "John", quote: "Carlani is my FAVORITe. I highly recommend Carlani!" },
+        {image: "./img/tony.jpg", name: "John", quote: "Carlani is my FAVORITe. I highly recommend Carlani!" },
     ]);
 
     return ( 
         <div className={style.testimonials} id="testimonials">
             I'm the Testimonial Page!
+            This is a test
 
             { testimonials.map( (testimonial) => 
             
