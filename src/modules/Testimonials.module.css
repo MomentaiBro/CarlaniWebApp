@@ -6,9 +6,17 @@
 }
 
 .testimonial {
- height: 50px;
- width: 30%;
- border: 5px solid whitesmoke;
+  height: 50px;
+  width: 30%;
+  padding: 35px 50px;
+  margin: 0 20px 30px;
+  border-radius: 0 70px 0 70px;
+  border: 5px solid #ffc33c;
+  border-left: none;
+  border-right: none;
+  text-align: center;
 }
+
+
 
 
