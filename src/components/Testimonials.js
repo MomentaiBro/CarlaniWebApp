@@ -31,8 +31,6 @@ const Testimonials = () => {
                 </>
                 )} */}
                 
-            
-
             </div>
         </div>
      );
