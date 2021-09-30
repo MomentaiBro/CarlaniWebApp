@@ -1,8 +1,8 @@
 .testimonials {
   height: 42vh;
   width: 100%;
-  background-color: var(--fuscia);
-  color: whitesmoke;
+  background-color: var(--yellow);
+  color: var(--grey);
 }
 
 .testimonial {
@@ -11,12 +11,39 @@
   padding: 35px 50px;
   margin: 0 20px 30px;
   border-radius: 0 70px 0 70px;
-  border: 5px solid #ffc33c;
+  border: 5px solid var(--darkblue);
   border-left: none;
   border-right: none;
   text-align: center;
 }
 
+.testimonial.pic{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
 
+img.image {
+  width: 100%;
+  height: auto;
+}
 
+h2.name{
+  display: block;
+  margin: 0 0 7px 0;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--fuscia);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
+h4.quote{
+  font-size: 16px;
+  color: whitesmoke;
+  line-height: 30px;
+}
