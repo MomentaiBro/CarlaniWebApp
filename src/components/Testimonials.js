@@ -1,9 +1,7 @@
 import { useState } from "react";
+
 import style from "../modules/Testimonials.module.css"
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import SimpleSlider from "./SimpleSlider";
 
 const Testimonials = () => {
 
@@ -13,11 +11,14 @@ const Testimonials = () => {
         {id: "test3", image: "tony.jpg", name: "Joan", quote: "Wow! Cafrlani is so cool" },
     ]);
 
+
+
     return ( 
         <div className={style.testimonials} id="testimonials">
             I'm the Testimonial Page!
+            <SimpleSlider/>
             <div className={style.testiWrapper}> 
-                { testimonials.map( (testimonial) => 
+                {/* { testimonials.map( (testimonial) => 
                 <>
                     <div className={style.testimonial} id={testimonial.id}>
 
@@ -27,13 +28,11 @@ const Testimonials = () => {
                             <h4 className={style.quote}>{testimonial.quote}</h4>
                             <h2 className={style.name}>{testimonial.name}</h2>
                     </div>
-                    <div className="links">
-                        <a href="#test1"></a>
-                        <a href="#test2"></a>
-                        <a href="#test3"></a>
-                    </div>
                 </>
-                )}
+                )} */}
+                
+            
+
             </div>
         </div>
      );
