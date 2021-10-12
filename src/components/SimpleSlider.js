@@ -43,21 +43,16 @@ export default function SimpleSlider() {
         )}
       </div>  */}
       
-      <div className={style.testimonial} id={testimonial.id}>
-              <div className={style.pic}>
-                  <img className={style.image} src={testimonial.image} alt="testimonial pictures"/>
-              </div>   
-                  <h4 className={style.quote}>{testimonial.quote}</h4>
-                  <h2 className={style.name}>{testimonial.name}</h2>
-      </div>
-      
       <div>
         <img src="tony.jpg" style={{width: "100px", height: "100px"}}/>
         <p>HELLO</p>
         <h2>Tony</h2>
       </div>
       <div>
-        <h3>MEOW</h3>
+        <img className={style.image} src={testimonials.image} alt="testimonial pictures"/>
+        <h4 className={style.quote}>{testimonials.quote}</h4>
+        <h2 className={style.name}>{testimonials.name}</h2>
+        {/* <h3>MEOW</h3> */}
       </div>
       <div>
         <h3>WHWOWOHW</h3>
