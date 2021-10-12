@@ -17,8 +17,6 @@ export default function SimpleSlider() {
     slidesToScroll: 1
   };
 
- 
-
     const [ testimonials, setTestimonials ] = useState([
         {id: "test1", image: "tony.jpg", name: "Jane", quote: "Carlani is the BEST. I love Carlani!" },
         {id: "test2", image: "tony.jpg", name: "John", quote: "Carlani is my FAVORITe. I highly recommend Carlani!" },
@@ -43,11 +41,15 @@ export default function SimpleSlider() {
         )}
       </div>  */}
       
-      <div>
-        <img src="tony.jpg" style={{width: "100px", height: "100px"}}/>
-        <p>HELLO</p>
-        <h2>Tony</h2>
-      </div>
+      
+        { testimonials.map ( (testimonial) =>
+        <div>
+          <img src={testimonial.image} style={{width: "100px", height: "100px"}}/>
+          <p>{testimonial.quote}</p>
+          <h2>{testimonial.name}</h2>
+        </div>
+        )}
+
       <div>
         <img className={style.image} src={testimonials.image} alt="testimonial pictures"/>
         <h4 className={style.quote}>{testimonials.quote}</h4>
