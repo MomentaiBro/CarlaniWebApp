@@ -6,12 +6,10 @@ import style from "../modules/Testimonials.module.css"
 import { useState } from "react";
 
 
-
-
 export default function SimpleSlider() {
   var settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
@@ -26,30 +24,15 @@ export default function SimpleSlider() {
 
   return (
     <Slider {...settings}>
-
-      {/* <div className={style.testiWrapper}> 
-        { testimonials.map( (testimonial) => 
-          <>
-            <div className={style.testimonial} id={testimonial.id}>
-              <div className={style.pic}>
-                  <img className={style.image} src={testimonial.image} alt="testimonial pictures"/>
-              </div>   
-                  <h4 className={style.quote}>{testimonial.quote}</h4>
-                  <h2 className={style.name}>{testimonial.name}</h2>
-            </div>
-          </>
-        )}
-      </div>  */}
-      
       
         { testimonials.map ( (testimonial) =>
-        <div>
-          <img src={testimonial.image} style={{width: "100px", height: "100px"}}/>
+        <div className={style.testimonial} style={{width: "600"}}>
+          <img className= {style.pic} src={testimonial.image} style={{width: "100px", height: "100px"}}/>
           <p>{testimonial.quote}</p>
           <h2>{testimonial.name}</h2>
         </div>
         )}
-        
+
     </Slider>
   );
 }
