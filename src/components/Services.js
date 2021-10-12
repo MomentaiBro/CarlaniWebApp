@@ -14,23 +14,20 @@ const Services = () => {
 
     return ( 
         <div className={style.services} id="services">
-                 <h1>Services</h1>
-                 <div className={style.serviceContainer}>
+            {/* <h1>Services</h1> */}
+            <div className={style.serviceContainer}>
 
-               { services.map((service) => (
-                
-                    <span className={style.singleService}>
-                        
-                            
-                            <img className={style.serviceIcon} src={service.icon}/>
+            { services.map((service) => (
+        
+                <span className={style.singleService}>  
+                    <img className={style.serviceIcon} src={service.icon} alt={service.description}/>
 
-                            <h2 className={style.serviceTitle}> {service.title}</h2>
+                    <h2 className={style.serviceTitle}> {service.title}</h2>
 
-                            <h4>{service.description}</h4>
-                      
-                    </span>
-            
+                    <h4>{service.description}</h4>
+                </span>
             ))}
+
             </div>
         </div>
      );

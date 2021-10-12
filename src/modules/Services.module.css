@@ -1,31 +1,30 @@
 .services {
-  height: 92vh;
+  height: 100%;
   width: 100%;
   background: var(--blue);
   margin: 0px;
   padding-left: 50px;
   padding-right: 50px;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.servicesWrapper {
-  width: auto;
-  min-height: 400px;
-  padding: 25px;
 }
 
 .serviceContainer {
   text-align: center;
   margin-top: 25px;
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-areas:
+    "card" "card" "card"
+    "card" "card" "card";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .singleService {
+  grid-area: "card";
   display: inline-block;
-  width: 20%;
-  max-height: 40%;
-  /* height: 100%; */
+  width: 80%;
+  height: 95%;
   background-color: #f3f3f3;
   padding: 25px;
   color: #b2b2b2;
@@ -37,30 +36,6 @@
   margin-right: 5px;
   border-bottom: 5px solid var(--yellow);
   border-radius: 10px;
-}
-
-.singleServiceB {
-  display: inline-block;
-  width: 25%;
-  height: 100%;
-  background-color: #f3f3f3;
-  padding: 25px;
-  color: #b2b2b2;
-  font-family: "Lato";
-  text-align: left;
-  margin-bottom: 15px;
-  padding: 40px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-bottom: 5px solid orange;
-  border-radius: 10px;
-}
-
-@media (max-width: 500px) {
-  .singleservice,
-  .singleserviceb {
-    width: 100%;
-  }
 }
 
 h2.serviceTitle {
@@ -75,7 +50,7 @@ h2.serviceTitle {
 }
 
 img.serviceIcon {
-  width: 70%;
+  width: auto;
   height: auto;
   display: block;
   margin-left: auto;
@@ -84,4 +59,72 @@ img.serviceIcon {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
+}
+/* .singleServiceB {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: #f3f3f3;
+  padding: 25px;
+  color: #b2b2b2;
+  font-family: "Lato";
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 5px solid orange;
+  border-radius: 10px;
+} */
+
+@media (max-width: 500px) {
+  .singleservice,
+  .singleserviceb {
+    width: 100%;
+  }
+
+  .services {
+    height: 100%;
+    width: 100%;
+    background: var(--blue);
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .serviceContainer {
+    text-align: center;
+    margin-top: 25px;
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-areas:
+      "card"
+      "card"
+      "card"
+      "card"
+      "card"
+      "card";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+  }
+
+  .singleService {
+    grid-area: "card";
+    display: inline-block;
+    width: 90%;
+    height: 75%;
+    background-color: #f3f3f3;
+    padding: 25px;
+    color: #b2b2b2;
+    font-family: "Lato";
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 5px solid var(--yellow);
+    border-radius: 10px;
+  }
 }
