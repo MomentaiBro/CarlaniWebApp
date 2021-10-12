@@ -6,7 +6,6 @@
   align-items: center;
   height: 92vh;
   width: 100%;
-
 }
 
 .antSection {
@@ -14,7 +13,6 @@
   width: 30%;
   display: flex;
   justify-content: flex-end;
-
 }
 
 .aboutImg {
@@ -23,13 +21,13 @@
 
 .description {
   height: 100%;
-  width: 70%;
+  width: 100%;
   background-image: url(../img/yellowblob.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   justify-content: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -41,8 +39,10 @@
 }
 
 .description p {
+  font-size: 20px;
+  font-weight: 600;
   color: var(--fuscia);
-  width: 50%;
+  width: 65%;
   text-align: center;
 }
 
@@ -51,6 +51,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
   }
 
   .antSection {
@@ -61,11 +62,11 @@
     margin-right: 40px;
     margin-bottom: 10px;
   }
-  
+
   .aboutImg {
     max-height: 100px;
   }
-  
+
   .description {
     height: 90%;
     width: 100%;
@@ -74,23 +75,21 @@
     background-position: center;
     background-size: cover;
     justify-content: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .description h1 {
     font-size: 8vh;
     color: var(--fuscia);
     margin-bottom: 25px;
+    margin-top: 50px;
   }
-  
+
   .description p {
     color: var(--fuscia);
     width: 90%;
     text-align: center;
-
   }
-  
-
 }
