@@ -17,8 +17,8 @@ const Testimonials = () => {
         <div className={style.testimonials} id="testimonials">
             I'm the Testimonial Page!
             <SimpleSlider/>
-            <div className={style.testiWrapper}> 
-                {/* { testimonials.map( (testimonial) => 
+            {/* <div className={style.testiWrapper}> 
+                { testimonials.map( (testimonial) => 
                 <>
                     <div className={style.testimonial} id={testimonial.id}>
 
@@ -29,9 +29,9 @@ const Testimonials = () => {
                             <h2 className={style.name}>{testimonial.name}</h2>
                     </div>
                 </>
-                )} */}
+                )}
                 
-            </div>
+            </div> */}
         </div>
      );
 }
