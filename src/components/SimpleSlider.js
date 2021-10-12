@@ -49,25 +49,7 @@ export default function SimpleSlider() {
           <h2>{testimonial.name}</h2>
         </div>
         )}
-
-      <div>
-        <img className={style.image} src={testimonials.image} alt="testimonial pictures"/>
-        <h4 className={style.quote}>{testimonials.quote}</h4>
-        <h2 className={style.name}>{testimonials.name}</h2>
-        {/* <h3>MEOW</h3> */}
-      </div>
-      <div>
-        <h3>WHWOWOHW</h3>
-      </div>
-      <div>
-        <h3>MARBIE</h3>
-      </div>
-      <div>
-        <h3>5DSKLFJH</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+        
     </Slider>
   );
 }
