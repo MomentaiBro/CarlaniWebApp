@@ -80,10 +80,10 @@ img.serviceIcon {
 } */
 
 @media (max-width: 500px) {
-  .singleservice,
+  /* .singleservice,
   .singleserviceb {
     width: 100%;
-  }
+  } */
 
   .services {
     height: 100%;
@@ -98,7 +98,6 @@ img.serviceIcon {
     margin-top: 25px;
     display: grid;
     height: 100%;
-    width: 100%;
     grid-template-areas:
       "card"
       "card"
@@ -114,7 +113,7 @@ img.serviceIcon {
     grid-area: "card";
     display: inline-block;
     width: 75%;
-    height: 75%;
+    /* height: 75%; */
     background-color: #f3f3f3;
     padding: 25px;
     color: #b2b2b2;
