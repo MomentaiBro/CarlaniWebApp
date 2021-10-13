@@ -19,7 +19,6 @@
 }
 
 .testiWrapper {
-
 }
 
 .testimonial > .pic {
@@ -31,7 +30,7 @@
   overflow: hidden;
 }
 
-img {
+.testimonial > img {
   width: 100%;
   height: auto;
 }

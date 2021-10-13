@@ -22,6 +22,10 @@
   background-size: cover;
 }
 
+.logo {
+  max-width: 5vw;
+}
+
 .shimmer {
   font-weight: 300;
   font-size: 3em;
