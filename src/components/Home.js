@@ -5,7 +5,7 @@ import Logo from "./Logo";
 const Home = () => {
 
     return ( 
-        <div className={`${HomeStyle.Home} shimmer`}>
+        <div className={`${HomeStyle.Home} shimmer`} id="home">
             <Logo />
         </div>
      );

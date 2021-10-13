@@ -7,7 +7,7 @@ const Logo = () => {
             src="Logo.png"
             srcSet={`${small} 300w, ${reg} 751w`}
             alt="Carlani Logo"
-            className="animate__animated animate__fadeInUp welcome"
+            className="animate__animated animate__fadeInUp welcome logo"
         />
     )
 };

@@ -7,26 +7,37 @@
   padding-right: 50px;
 }
 
+.services > h1 {
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--fuscia);
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--fuscia);
+  text-align: center;
+}
+
+.services > p {
+  text-align: center;
+}
+
 .serviceContainer {
   text-align: center;
   margin-top: 25px;
   display: grid;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   grid-template-areas:
     "card" "card" "card"
     "card" "card" "card";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  align-items: center;
-  justify-content: space-evenly;
+  place-items: center stretch;
 }
 
 .singleService {
   grid-area: "card";
-  display: inline-block;
   width: 80%;
-  height: 95%;
   background-color: #f3f3f3;
   padding: 25px;
   color: #b2b2b2;
@@ -38,6 +49,8 @@
   margin-right: 5px;
   border-bottom: 5px solid var(--yellow);
   border-radius: 10px;
+  align-self: center;
+  justify-content: center;
 }
 
 h2.serviceTitle {
@@ -80,10 +93,10 @@ img.serviceIcon {
 } */
 
 @media (max-width: 500px) {
-  .singleservice,
+  /* .singleservice,
   .singleserviceb {
     width: 100%;
-  }
+  } */
 
   .services {
     height: 100%;
@@ -98,7 +111,6 @@ img.serviceIcon {
     margin-top: 25px;
     display: grid;
     height: 100%;
-    width: 100%;
     grid-template-areas:
       "card"
       "card"
@@ -114,7 +126,7 @@ img.serviceIcon {
     grid-area: "card";
     display: inline-block;
     width: 75%;
-    height: 75%;
+    /* height: 75%; */
     background-color: #f3f3f3;
     padding: 25px;
     color: #b2b2b2;
