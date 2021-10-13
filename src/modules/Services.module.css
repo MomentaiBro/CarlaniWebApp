@@ -7,6 +7,19 @@
   padding-right: 50px;
 }
 
+.services > h1 {
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--fuscia);
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--fuscia);
+}
+
+.services > p {
+  text-align: center;
+}
+
 .serviceContainer {
   text-align: center;
   margin-top: 25px;
@@ -23,7 +36,6 @@
 
 .singleService {
   grid-area: "card";
-
   width: 80%;
   background-color: #f3f3f3;
   padding: 25px;
