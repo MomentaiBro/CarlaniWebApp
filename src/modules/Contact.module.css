@@ -1,11 +1,22 @@
-h1 {
+.contact {
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_H1 {
+  display: flex;
+  align-items: center;
+}
+.contact_H1 > h1 {
+  font-size: 56px;
   text-align: center;
   color: #a8a8a8;
-  text-shadow: 1px 1px 0 white;
+  text-shadow: 1px 1px 0 rgb(90, 56, 56);
 }
 
 form {
-  max-width: 600px;
+  max-width: 50vw;
   text-align: center;
   margin: 20px auto;
 }
@@ -44,16 +55,16 @@ form #input-submit:hover {
 }
 form textarea {
   height: 126px;
+  width: 500px;
 }
 
 .half {
-  float: left;
-  width: 48%;
+  width: 100%;
   margin-bottom: 1em;
 }
 
 .right {
-  width: 50%;
+  width: 100%;
 }
 
 .left {
