@@ -14,8 +14,10 @@
 .contact_H1 > h1 {
   font-size: 56px;
   text-align: center;
-  color: #a8a8a8;
-  text-shadow: 1px 1px 0 rgb(90, 56, 56);
+  color: gray;
+  font-family: "Lato";
+  font-weight: 700;
+  text-shadow: 1px 1px 0 var(--fuscia);
 }
 
 form {
