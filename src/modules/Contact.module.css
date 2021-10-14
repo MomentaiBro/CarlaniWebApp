@@ -1,12 +1,15 @@
 .contact {
-  width: 75vw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
+  background-color: var(--yellow);
 }
 
 .contact_H1 {
+  justify-content: flex-end;
   display: flex;
   align-items: center;
+  width: 25vw;
 }
 .contact_H1 > h1 {
   font-size: 56px;
