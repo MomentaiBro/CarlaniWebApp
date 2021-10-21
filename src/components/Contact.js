@@ -18,7 +18,7 @@ const Contact = () => {
                     />
             </div>
             <form className={style.cf}>
-                <div class="half left cf">
+                <div className={`${style.half} ${style.left} ${style.cf}`}>
                     <input type="text" className={style.inputName} placeholder="Name"/>
                     <input type="email" id="input-email" placeholder="Email address"/>
                     <input type="text" id="input-subject" placeholder="Subject"/>
