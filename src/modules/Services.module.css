@@ -39,7 +39,6 @@
   border-radius: 50px;
   padding-top: 50px;
   padding-bottom: 100px;
-  margin-bottom: 250px;
 }
 
 .singleService {
@@ -90,9 +89,7 @@ img.serviceIcon {
   opacity: 0.5;
 }
 
-
 @media (max-width: 500px) {
-
   .services {
     height: 100%;
     width: 100%;
