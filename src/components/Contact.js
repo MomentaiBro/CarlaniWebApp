@@ -11,10 +11,15 @@ const Contact = () => {
         <div className={style.contact}>
             <div className={style.contact_H1}> 
                 <h1>Contact Us</h1>
+                <img
+                    className={style.contactImg}
+                    src="carlanilogoant.png"
+                    alt="ant with a broom"
+                    />
             </div>
             <form className={style.cf}>
                 <div class="half left cf">
-                    <input type="text" id="input-name" placeholder="Name"/>
+                    <input type="text" className={style.inputName} placeholder="Name"/>
                     <input type="email" id="input-email" placeholder="Email address"/>
                     <input type="text" id="input-subject" placeholder="Subject"/>
                 </div>

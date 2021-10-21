@@ -55,6 +55,10 @@ nav {
   color: white;
 }
 
+.Carlani_Home:hover {
+  color: var(--fuscia);
+}
+
 .navLinks {
   display: flex;
   list-style: none;
@@ -69,6 +73,10 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 3vh;
+}
+
+.navLinks li a:hover {
+  color: var(--yellow);
 }
 
 /* Home component */

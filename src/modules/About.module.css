@@ -32,10 +32,11 @@
   align-items: center;
 }
 
-.description h1 {
+.description > h1 {
   font-size: 8vh;
   color: var(--fuscia);
   margin-bottom: 25px;
+  font-weight: 900;
 }
 
 .description p {
