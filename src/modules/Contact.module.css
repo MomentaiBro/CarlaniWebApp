@@ -29,7 +29,7 @@
 }
 
 form {
-  max-width: 45vw;
+  /* max-width: 45vw; */
   text-align: center;
   /* margin: 20px auto; */
   padding-bottom: 20px;
@@ -139,4 +139,7 @@ form textarea {
 
 .cf:after {
   clear: both;
+}
+
+@media (max-width: 1025px) {
 }

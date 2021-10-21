@@ -156,3 +156,9 @@ nav {
     z-index: 1;
   }
 }
+
+@media screen and (max-width: 1045px) {
+  .welcome {
+    max-width: 90vw;
+  }
+}
