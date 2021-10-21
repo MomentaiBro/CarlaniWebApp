@@ -14,8 +14,13 @@ const Services = () => {
 
     return ( 
         <div className={style.services} id="services">
+<<<<<<< HEAD
             <h1>Services</h1>
 
+=======
+            <h1>Services We Offer</h1>
+            {/* <p>These are our Sevices</p> */}
+>>>>>>> 4b385550eb05e0b985759f1a86b47ee5c3f4a496
             <div className={style.serviceContainer}>
 
             { services.map((service) => (
