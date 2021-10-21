@@ -19,7 +19,11 @@
   text-align: center;
 }
 
-.services > p {
+.services > h4 {
+  text-align: center;
+}
+
+.serviceTitle h4 {
   text-align: center;
 }
 
