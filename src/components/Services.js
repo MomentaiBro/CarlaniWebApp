@@ -8,8 +8,8 @@ const Services = () => {
         {title: "Cleaning", description: "Messy Rooms? Need your house to get ready for showings? We've got a knack for cleaning.", icon: "./icons/mop.png"},
         {title: "Organizing", description: "We all get a little disorganized from time to time. Let us help organize your office, home, garage, etc.", icon: "./icons/house.png"},
         {title: "Flooring", description: "Got some flooring you want to get rid of? Maybe need some help instaling your new hardwood floors? We got you!", icon: "./icons/flooring.png"},
-        {title: "Packing", description: "Wow. Moving can be so daunting. Luckily, Carlani has experience helping home owners get ready for the big move!", icon: "./icons/shipping.png"},
-        {title: "Trash Pick Up", description: "Moving and need help getting rid of trash? Let Carlani help you with that so you dont have to worry.", icon: "./icons/trashcan.png"},
+        {title: "Packing", description: "Moving can be so daunting. Luckily, Carlani has experience helping home owners get ready for the big move!", icon: "./icons/shipping.png"},
+        {title: "Trash Pick Up", description: "Need help getting rid of trash? Let Carlani help you with that so you dont have to worry.", icon: "./icons/trashcan.png"},
     ]);
 
     return ( 
