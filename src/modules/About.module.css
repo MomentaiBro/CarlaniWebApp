@@ -13,10 +13,12 @@
   width: 30%;
   display: flex;
   justify-content: flex-end;
+  background: none;
 }
 
 .aboutImg {
   max-height: 450px;
+  background: none;
 }
 
 .description {
