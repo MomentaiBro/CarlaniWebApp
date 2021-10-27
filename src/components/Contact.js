@@ -11,11 +11,17 @@ const Contact = () => {
         <div className={style.contact} id="contact">
             <div className={style.contact_H1}> 
                 <h1>Contact Us</h1>
-                <img
+                <div className={style.contact_box}>
+                    <p>Have a job for us? 
+                        <br/> Go Ahead and send us an Email!
+                        <br/> We'll get back to you as soon as we can </p>
+                 <img
                     className={style.contactImg}
                     src="carlanilogoant.png"
                     alt="ant with a broom"
-                    />
+                    />   
+                </div>
+                
             </div>
             <form className={style.cf}>
                 <div className={`${style.half} ${style.left} ${style.cf}`}>
