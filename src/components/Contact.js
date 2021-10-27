@@ -12,9 +12,12 @@ const Contact = () => {
             <div className={style.contact_H1}> 
                 <h1>Contact Us</h1>
                 <div className={style.contact_box}>
-                    <p>Have a job for us? 
-                        <br/> Go Ahead and send us an Email!
-                        <br/> We'll get back to you as soon as we can </p>
+                    <div>
+                        <h2 id="contact_">Have a Job For Us?</h2>
+                        <p>Go ahead and send us an email!
+                        <br/> We'll get back to you as soon as we can!</p>
+                    </div>
+                    
                  <img
                     className={style.contactImg}
                     src="carlanilogoant.png"
