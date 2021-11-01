@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "//CarlaniWebApp/static/css/main.dcdb56b1.chunk.css",
+    "main.js": "//CarlaniWebApp/static/js/main.057662f1.chunk.js",
+    "main.js.map": "//CarlaniWebApp/static/js/main.057662f1.chunk.js.map",
+    "runtime-main.js": "//CarlaniWebApp/static/js/runtime-main.78a5fcb3.js",
+    "runtime-main.js.map": "//CarlaniWebApp/static/js/runtime-main.78a5fcb3.js.map",
+    "static/css/2.8911097e.chunk.css": "//CarlaniWebApp/static/css/2.8911097e.chunk.css",
+    "static/js/2.82a23f4f.chunk.js": "//CarlaniWebApp/static/js/2.82a23f4f.chunk.js",
+    "static/js/2.82a23f4f.chunk.js.map": "//CarlaniWebApp/static/js/2.82a23f4f.chunk.js.map",
+    "index.html": "//CarlaniWebApp/index.html",
+    "static/css/2.8911097e.chunk.css.map": "//CarlaniWebApp/static/css/2.8911097e.chunk.css.map",
+    "static/css/main.dcdb56b1.chunk.css.map": "//CarlaniWebApp/static/css/main.dcdb56b1.chunk.css.map",
+    "static/js/2.82a23f4f.chunk.js.LICENSE.txt": "//CarlaniWebApp/static/js/2.82a23f4f.chunk.js.LICENSE.txt",
+    "static/media/Home.module.css": "//CarlaniWebApp/static/media/layered-waves.26e6c295.svg",
+    "static/media/slick-theme.css": "//CarlaniWebApp/static/media/slick.c94f7671.ttf",
+    "static/media/About.module.css": "//CarlaniWebApp/static/media/yellowblob.ee71b7ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78a5fcb3.js",
+    "static/css/2.8911097e.chunk.css",
+    "static/js/2.82a23f4f.chunk.js",
+    "static/css/main.dcdb56b1.chunk.css",
+    "static/js/main.057662f1.chunk.js"
+  ]
+}
