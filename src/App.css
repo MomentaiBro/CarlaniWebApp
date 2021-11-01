@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+:root {
+  --blue: rgb(165, 194, 227);
+  --fuscia: #861c56;
+  --yellow: rgb(250, 219, 120);
+  --darkblue: rgb(80, 116, 157);
+  --grey: rgb(126, 126, 129);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: whitesmoke;
+}
+
+/* NavBar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+  box-shadow: 0px 1px 10px black;
+}
+nav {
+  height: 8vh;
+  background-color: var(--darkblue);
+  width: 100vw;
+  /* need to change colors to carlani colors */
+  font-family: "Lato";
+  z-index: 101;
+}
+
+.Carlani_Home {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.Carlani_Home:hover {
+  color: var(--fuscia);
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+.navLinks li a:hover {
+  color: var(--yellow);
+}
+
+/* Home component */
+
+.welcome {
+  max-height: 50vh;
+}
+
+@media screen and (max-width: 750px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 20%;
+    transform: translate(-5% -50%);
+    z-index: 12;
+  }
+
+  .navLinks {
+    background-color: var(--darkblue);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -12%);
+    -webkit-clip-path: circle(100px at 90% -12%);
+    transition: all 0.8s ease-out;
+    pointer-events: none;
+  }
+
+  .navLinks.open {
+    background-color: var(--darkblue);
+    clip-path: circle(1200px at 90% -12%);
+    -webkit-clip-path: circle(1200px at 90% -12%);
+    pointer-events: all;
+    z-index: 10;
+  }
+
+  .navLinks li {
+    opacity: 0;
+  }
+  .navLinks li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .navLinks li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .navLinks li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .navLinks li:nth-child(4) {
+    transition: all 0.5s ease 0.7s;
+  }
+
+  li.fade {
+    opacity: 1;
+  }
+
+  .navLinks li a {
+    font-size: 56px;
+  }
+
+  .welcome {
+    width: 90%;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .welcome {
+    max-width: 90vw;
+  }
+}
