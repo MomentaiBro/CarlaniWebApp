@@ -1,11 +1,14 @@
 const small = 'carlanilogoant.png'
 const reg = 'Logo.png'
 
+
+
+console.log()
+
 const Logo = () => {
     return(
         <img
-            src="Logo.png"
-            srcSet={`${small} 300w, ${reg} 751w`}
+            src="/Logo.png"
             alt="Carlani Logo"
             className="animate__animated animate__fadeInUp welcome logo"
         />
